@@ -1,8 +1,14 @@
-#+TITLE: Readme
+#+TITLE: Bashbot
+
+This projects implements a simple telegram bot for getting Binance reports.
 
 * Tasks
 ** DONE USBAT receive updates from binance wallet total amount
 - [X] send hourly updates from binance wallet
 - [X] show USD and BRL values
 ** TODO USBAT request reports from binance
+- [ ] create telegram webhooks
+- [ ] handle telegram comments
+- [ ] make chat_id dynamic
 ** TODO USBAT view detailed information about wallet distribution
+- TBD

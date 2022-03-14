@@ -12,8 +12,10 @@ func CommandHandler() {
 		panic("you must specify a command")
 	}
 
-	switch (args[1]) {
+	switch args[1] {
 	case "report":
 		usecases.SendWalletReport()
+	case "listen":
+		usecases.GetSymbolCandles()
 	}
 }
